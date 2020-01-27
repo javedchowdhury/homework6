@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 140%;
+}
+
+.bg-primary {
+    padding-top: 0%;
+    /* background-image: url("../images/watermelon-beach.jpeg") !important; */
+    background-image: url("../images/Mount-Joyce.jpg") !important;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: left top;
+}
+
+.navPosition {
+    padding-bottom: 7%;
+    ;
+}
+
+@media screen and (max-width: 710px) {
+    .navPosition {
+        padding-bottom: 13%;
+    }
+}
+
+.navBorder:hover {
+    background-color: black;
+    color: #A5CFC9;
+    padding: 2%;
+    border-radius: 5px;
+    padding-bottom: 7%;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: bolder;
+    font-size: 125%;
+}
+
+@media screen and (max-width: 476px) {
+    .navPosition {
+        font-size: 75%;
+    }
+}
+
+.container {
+    width: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.introDiv {
+    padding-left: 3%;
+    padding-bottom: 5%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 300%;
+    margin-top: 8%;
+}
+
+.profession {
+    font-weight: bolder;
+    font-size: 250%;
+}
+
+.skills {
+    font-size: 200%;
+    font-weight: bolder;
+    color: white;
+}
+
+.photoDiv {
+    text-align: center;
+}
+
+.profilePic {
+    width: 60%;
+    border-style: solid;
+    border-color: white;
+    border-width: 15px;
+    border-bottom-width: 60px;
+}
+
+.bg-secondary {
+    background-color: #E1695C !important;
+}
+
+.aboutSection {
+    text-align: center;
+    color: black;
+    padding-bottom: 4%;
+    padding-top: 1%;
+}
+
+.aboutParagraph {
+    text-align: left;
+    color: black;
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+.portfolio {
+    color: black !important;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.thumbnailWrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.imgMod {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    ;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    margin: 3%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.projectName {
+    color: black !important;
+    font-weight: bolder;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.bg-info {
+    background-color: #A5CFC9 !important;
+}
+
+button {
+    border-radius: 5px;
+    margin-bottom: 1%;
+    background-color: #A5CFC9;
+    border-color: black;
+    padding-bottom: 7px;
+}
+
+button:hover {
+    background-color: black;
+    color: #A5CFC9;
+}
+
+.footer {
+    text-align: center;
+    background-color: #5174BF;
+    color: black;
+    font-size: 100%;
+    padding: 1%;
+}
